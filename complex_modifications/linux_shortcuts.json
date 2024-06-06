@@ -2,6 +2,31 @@
     "title": "Linux shortcuts",
     "rules": [
         {
+            "description": "Linux shortcuts - Switch windows (Alt+Tab)",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "grave_accent_and_tilde",
+                        "modifiers": {
+                            "mandatory": [
+                                "option",
+                                "shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "grave_accent_and_tilde",
+                            "modifiers": [
+                                "left_command"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "Linux shortcuts - Terminal",
             "manipulators": [
                 {
@@ -310,55 +335,6 @@
                     "to": [
                         {
                             "key_code": "vk_none"
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
-        },
-        {
-            "description": "Linux shortcuts - Switch application",
-            "manipulators": [
-                {
-                    "from": {
-                        "key_code": "tab",
-                        "modifiers": {
-                            "mandatory": [
-                                "left_option"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "tab",
-                            "modifiers": [
-                                "left_command"
-                            ]
-                        }
-                    ],
-                    "type": "basic"
-                },
-                {
-                    "from": {
-                        "key_code": "grave_accent_and_tilde",
-                        "modifiers": {
-                            "mandatory": [
-                                "left_option"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "grave_accent_and_tilde",
-                            "modifiers": [
-                                "left_command"
-                            ]
                         }
                     ],
                     "type": "basic"
