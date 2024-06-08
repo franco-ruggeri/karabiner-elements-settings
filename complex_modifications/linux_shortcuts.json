@@ -9,7 +9,9 @@
                         "key_code": "grave_accent_and_tilde",
                         "modifiers": {
                             "mandatory": [
-                                "option",
+                                "option"
+                            ],
+                            "optional": [
                                 "shift"
                             ]
                         }
